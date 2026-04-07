@@ -1,41 +1,41 @@
-Apr 07, 2026 2:52:32 PM reposense.system.LogsManager addFileHandler
+Apr 07, 2026 5:48:26 PM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Apr 07, 2026 2:52:32 PM reposense.parser.ReportConfigYamlParser parse
+Apr 07, 2026 5:48:26 PM reposense.parser.ReportConfigYamlParser parse
 INFO: Parsing report-config.yaml file...
-Apr 07, 2026 2:52:33 PM reposense.parser.ArgsParser addReportConfigToBuilder
+Apr 07, 2026 5:48:26 PM reposense.parser.ArgsParser addReportConfigToBuilder
 WARNING: Error parsing report-config.yaml: ./config/report-config.yaml (No such file or directory)
 ./config/report-config.yaml Ignoring the report config provided.
-Apr 07, 2026 2:52:33 PM reposense.parser.CsvParser validateHeader
+Apr 07, 2026 5:48:26 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Apr 07, 2026 2:52:33 PM reposense.parser.CsvParser validateHeader
+Apr 07, 2026 5:48:26 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias abigail found. The alias will belong to the last author - abigailtong
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias koh tze rui found. The alias will belong to the last author - kohtzerui
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias michael shyam wilfred david samuvel found. The alias will belong to the last author - michaelshyam1
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias yengfuan found. The alias will belong to the last author - Yengfuan
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias justin poon found. The alias will belong to the last author - justinpoonjj
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias e1484104 found. The alias will belong to the last author - E1484104
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias justin poon found. The alias will belong to the last author - justinpoonjj
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias abigail found. The alias will belong to the last author - abigailtong
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias koh tze rui found. The alias will belong to the last author - kohtzerui
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias e1484104 found. The alias will belong to the last author - E1484104
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias michael shyam wilfred david samuvel found. The alias will belong to the last author - michaelshyam1
-Apr 07, 2026 2:52:33 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Apr 07, 2026 5:48:26 PM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias yengfuan found. The alias will belong to the last author - Yengfuan
-Apr 07, 2026 2:52:33 PM reposense.parser.CsvParser validateHeader
+Apr 07, 2026 5:48:26 PM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, group-config.csv, and recognized columns: Globs,  Repository's Location,  Group Name
-Apr 07, 2026 2:52:33 PM reposense.git.GitConfig getGlobalGitLfsConfig
+Apr 07, 2026 5:48:27 PM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -51,727 +51,727 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-2/tp.git...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-1/tp.git...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-2/tp.git...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-1/tp.git...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-2/tp.git to complete...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-2/tp.git to complete...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-1/tp.git to complete...
-Apr 07, 2026 2:52:33 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-1/tp.git...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-2/tp.git...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-2/tp.git...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-1/tp.git to complete...
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-1/tp.git completed!
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-3/tp.git...
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-3/tp.git to complete...
-Apr 07, 2026 2:52:34 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/40] Analyzing https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
-Apr 07, 2026 2:52:34 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W10-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-2/tp.git to complete...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-2/tp.git to complete...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-1/tp.git to complete...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W13-2/tp.git completed!
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-3/tp.git...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-3/tp.git to complete...
+Apr 07, 2026 5:48:27 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/40] Analyzing https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-1/tp.git completed!
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T11-3/tp.git...
-Apr 07, 2026 2:52:34 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/40] Analyzing https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/40] Analyzing https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T11-3/tp.git to complete...
-Apr 07, 2026 2:52:34 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W13-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W13-1/tp.git completed!
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T14-3/tp.git...
-Apr 07, 2026 2:52:34 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 5:48:27 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/40] Analyzing https://github.com/AY2526S2-CS2113-W13-1/tp.git (master)...
-Apr 07, 2026 2:52:34 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:27 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T14-3/tp.git to complete...
-Apr 07, 2026 2:52:34 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:27 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W10-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:27 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W13-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:27 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
+Apr 07, 2026 5:48:27 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
+Apr 07, 2026 5:48:27 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-W13-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:27 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-1/tp.git (master)...
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-2/tp.git completed!
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T14-4/tp.git...
-Apr 07, 2026 2:52:35 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/40] Analyzing https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T14-4/tp.git to complete...
-Apr 07, 2026 2:52:35 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-3/tp.git completed!
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-3/tp.git...
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-3/tp.git to complete...
-Apr 07, 2026 2:52:35 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W10-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:35 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
-Apr 07, 2026 2:52:35 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T11-3/tp.git completed!
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-4/tp.git...
-Apr 07, 2026 2:52:35 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-4/tp.git to complete...
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-T14-3/tp.git completed!
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T11-2/tp.git...
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T11-2/tp.git to complete...
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-1/tp.git (master) completed!
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [5/40] Analyzing https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W10-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-1/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-2/tp.git (master) completed!
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/40] Analyzing https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-T14-4/tp.git completed!
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T11-4/tp.git...
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T11-4/tp.git to complete...
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T14-4/tp.git...
+Apr 07, 2026 5:48:28 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/40] Analyzing https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T14-4/tp.git to complete...
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-3/tp.git completed!
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-3/tp.git...
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-3/tp.git to complete...
+Apr 07, 2026 5:48:28 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-T11-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:28 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-1/tp.git (master)...
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-T14-3/tp.git completed!
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W13-4/tp.git...
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W13-4/tp.git to complete...
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-2/tp.git completed!
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T11-2/tp.git...
+Apr 07, 2026 5:48:28 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T11-2/tp.git to complete...
+Apr 07, 2026 5:48:28 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
+Apr 07, 2026 5:48:29 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-1/tp.git (master)...
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W13-3/tp.git completed!
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-T14-4/tp.git completed!
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T11-4/tp.git...
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T11-4/tp.git to complete...
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T11-1/tp.git...
-Apr 07, 2026 2:52:36 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T11-1/tp.git to complete...
-Apr 07, 2026 2:52:36 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-1/tp.git (master) completed!
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W13-4/tp.git completed!
-Apr 07, 2026 2:52:37 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [7/40] Analyzing https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T10-4/tp.git...
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T10-4/tp.git to complete...
-Apr 07, 2026 2:52:37 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T14-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T11-2/tp.git completed!
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F14-2/tp.git...
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F14-2/tp.git to complete...
-Apr 07, 2026 2:52:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
-Apr 07, 2026 2:52:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
-Apr 07, 2026 2:52:37 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-2/tp.git (master) completed!
-Apr 07, 2026 2:52:37 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [8/40] Analyzing https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
-Apr 07, 2026 2:52:37 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T14-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-1/tp.git (master) completed!
+Apr 07, 2026 5:48:29 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [5/40] Analyzing https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
+Apr 07, 2026 5:48:29 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W10-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:29 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
+Apr 07, 2026 5:48:29 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T11-4/tp.git completed!
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T10-1/tp.git...
-Apr 07, 2026 2:52:37 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T10-1/tp.git to complete...
-Apr 07, 2026 2:52:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-3/tp.git (master) completed!
-Apr 07, 2026 2:52:38 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [9/40] Analyzing https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W13-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T10-4/tp.git completed!
-Apr 07, 2026 2:52:38 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T10-2/tp.git...
-Apr 07, 2026 2:52:38 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-2/tp.git (master)...
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T10-2/tp.git to complete...
-Apr 07, 2026 2:52:38 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F14-2/tp.git completed!
-Apr 07, 2026 2:52:38 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T10-3/tp.git...
-Apr 07, 2026 2:52:38 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T10-3/tp.git to complete...
-Apr 07, 2026 2:52:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-3/tp.git (master) completed!
-Apr 07, 2026 2:52:38 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [10/40] Analyzing https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
-Apr 07, 2026 2:52:38 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W13-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-T11-1/tp.git completed!
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-4/tp.git...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-4/tp.git to complete...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-T10-1/tp.git completed!
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F14-4/tp.git...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F14-4/tp.git to complete...
-Apr 07, 2026 2:52:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
-Apr 07, 2026 2:52:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
-Apr 07, 2026 2:52:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-T10-3/tp.git completed!
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:29 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-1/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-2/tp.git (master) completed!
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/40] Analyzing https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T14-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:30 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-1/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T10-2/tp.git completed!
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W10-4/tp.git...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W10-4/tp.git to complete...
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-1/tp.git (master) completed!
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [7/40] Analyzing https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-T10-3/tp.git completed!
+Apr 07, 2026 5:48:30 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-3/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F14-4/tp.git...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F14-4/tp.git to complete...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-T11-1/tp.git completed!
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W09-4/tp.git...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F14-1/tp.git...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-T10-1/tp.git completed!
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W09-4/tp.git to complete...
-Apr 07, 2026 2:52:39 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F14-1/tp.git...
+Apr 07, 2026 5:48:30 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F14-1/tp.git to complete...
-Apr 07, 2026 2:52:39 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
-Apr 07, 2026 2:52:39 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
-Apr 07, 2026 2:52:39 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-3/tp.git (master) completed!
-Apr 07, 2026 2:52:39 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [11/40] Analyzing https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T11-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T14-3/tp.git (master) completed!
-Apr 07, 2026 2:52:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [12/40] Analyzing https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T11-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T14-4/tp.git (master) completed!
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [13/40] Analyzing https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T10-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-4/tp.git (master) completed!
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [14/40] Analyzing https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F14-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-F14-4/tp.git completed!
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W10-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:30 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-3/tp.git (master) completed!
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [8/40] Analyzing https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
+Apr 07, 2026 5:48:30 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W13-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:30 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W10-4/tp.git completed!
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F14-3/tp.git...
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W09-1/tp.git...
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W09-1/tp.git to complete...
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F14-3/tp.git to complete...
-Apr 07, 2026 2:52:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W09-4/tp.git completed!
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W09-1/tp.git...
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W09-1/tp.git to complete...
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-F14-4/tp.git completed!
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W09-2/tp.git...
-Apr 07, 2026 2:52:40 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W09-2/tp.git to complete...
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F14-1/tp.git completed!
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-4/tp.git (master) completed!
-Apr 07, 2026 2:52:41 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W09-3/tp.git...
-Apr 07, 2026 2:52:41 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W09-3/tp.git to complete...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [15/40] Analyzing https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T11-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-2/tp.git (master) completed!
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [16/40] Analyzing https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T10-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-2/tp.git (master) completed!
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [17/40] Analyzing https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T10-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-3/tp.git (master)...
+Apr 07, 2026 5:48:31 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-3/tp.git (master) completed!
+Apr 07, 2026 5:48:31 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [9/40] Analyzing https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
+Apr 07, 2026 5:48:31 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T14-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:31 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F14-3/tp.git completed!
-Apr 07, 2026 2:52:41 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F09-2/tp.git...
-Apr 07, 2026 2:52:41 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:31 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F09-2/tp.git to complete...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-4/tp.git (master) completed!
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [18/40] Analyzing https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
-Apr 07, 2026 2:52:41 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T10-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W09-3/tp.git completed!
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F09-1/tp.git...
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F09-1/tp.git to complete...
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F09-2/tp.git completed!
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F09-3/tp.git...
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F09-3/tp.git to complete...
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-W09-1/tp.git completed!
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F09-4/tp.git...
-Apr 07, 2026 2:52:42 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F09-4/tp.git to complete...
-Apr 07, 2026 2:52:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-1/tp.git (master) completed!
-Apr 07, 2026 2:52:43 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [19/40] Analyzing https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-W09-2/tp.git completed!
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-3/tp.git...
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-3/tp.git to complete...
-Apr 07, 2026 2:52:43 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F14-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-3/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-3/tp.git (master) completed!
+Apr 07, 2026 5:48:32 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [10/40] Analyzing https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F09-1/tp.git completed!
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-1/tp.git...
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-1/tp.git to complete...
-Apr 07, 2026 2:52:43 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-3/tp.git (master) completed!
-Apr 07, 2026 2:52:43 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [20/40] Analyzing https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W10-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-F09-4/tp.git...
+Apr 07, 2026 5:48:32 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-F09-4/tp.git to complete...
+Apr 07, 2026 5:48:32 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W13-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:32 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-2/tp.git (master)...
+Apr 07, 2026 5:48:32 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-2/tp.git (master) completed!
+Apr 07, 2026 5:48:33 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [11/40] Analyzing https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
+Apr 07, 2026 5:48:33 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T11-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:33 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-W09-2/tp.git completed!
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-3/tp.git...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-3/tp.git to complete...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F09-3/tp.git completed!
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-2/tp.git...
-Apr 07, 2026 2:52:43 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-2/tp.git to complete...
-Apr 07, 2026 2:52:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-1/tp.git (master) completed!
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [21/40] Analyzing https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-1/tp.git...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-1/tp.git to complete...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-F09-4/tp.git completed!
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-2/tp.git...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-2/tp.git to complete...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-W09-1/tp.git completed!
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T09-4/tp.git...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T09-4/tp.git to complete...
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W09-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T14-3/tp.git (master)...
+Apr 07, 2026 5:48:33 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T14-3/tp.git (master) completed!
+Apr 07, 2026 5:48:33 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [12/40] Analyzing https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
+Apr 07, 2026 5:48:33 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T11-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:33 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T09-3/tp.git completed!
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W11-3/tp.git...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W11-3/tp.git to complete...
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T09-1/tp.git completed!
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W11-2/tp.git...
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W11-2/tp.git to complete...
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-4/tp.git (master) completed!
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [22/40] Analyzing https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F14-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-2/tp.git (master) completed!
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [23/40] Analyzing https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F14-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:44 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
-Apr 07, 2026 2:52:44 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-4/tp.git (master) completed!
-Apr 07, 2026 2:52:45 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [24/40] Analyzing https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W09-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-4/tp.git (master) completed!
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T09-2/tp.git completed!
-Apr 07, 2026 2:52:45 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [25/40] Analyzing https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W11-4/tp.git...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W11-4/tp.git to complete...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W11-2/tp.git to complete...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T09-4/tp.git completed!
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W11-4/tp.git...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T14-1/tp.git...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W11-4/tp.git to complete...
+Apr 07, 2026 5:48:33 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T14-1/tp.git to complete...
-Apr 07, 2026 2:52:45 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F09-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:45 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:33 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
+Apr 07, 2026 5:48:33 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W13-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W13-4/tp.git (master) completed!
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [13/40] Analyzing https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T14-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T10-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T14-4/tp.git (master) completed!
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [14/40] Analyzing https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W11-3/tp.git completed!
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-2/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-T14-2/tp.git...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F14-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-T14-2/tp.git to complete...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-2/tp.git (master) completed!
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [15/40] Analyzing https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W11-2/tp.git completed!
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2526S2-CS2113-W11-1/tp.git...
-Apr 07, 2026 2:52:45 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2526S2-CS2113-W11-1/tp.git to complete...
-Apr 07, 2026 2:52:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
-Apr 07, 2026 2:52:45 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-1/tp.git (master) completed!
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [26/40] Analyzing https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-3/tp.git (master) completed!
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [27/40] Analyzing https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W09-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:46 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W09-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:46 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-3/tp.git (master) completed!
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [28/40] Analyzing https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T10-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-W11-4/tp.git completed!
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F09-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:46 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-2/tp.git (master) completed!
-Apr 07, 2026 2:52:46 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-4/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T14-1/tp.git completed!
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [29/40] Analyzing https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-F09-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:46 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
-Apr 07, 2026 2:52:46 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2526S2-CS2113-W11-1/tp.git completed!
-Apr 07, 2026 2:52:46 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-4/tp.git (master) completed!
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [16/40] Analyzing https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T10-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:34 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
+Apr 07, 2026 5:48:34 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2526S2-CS2113-T14-2/tp.git completed!
-Apr 07, 2026 2:52:47 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
-Apr 07, 2026 2:52:47 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
-Apr 07, 2026 2:52:47 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-1/tp.git (master) completed!
-Apr 07, 2026 2:52:47 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [30/40] Analyzing https://github.com/AY2526S2-CS2113-F09-4/tp.git (master)...
-Apr 07, 2026 2:52:47 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:35 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2526S2-CS2113-W11-1/tp.git completed!
+Apr 07, 2026 5:48:35 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-2/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-2/tp.git (master) completed!
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [17/40] Analyzing https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-4/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T11-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:35 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-4/tp.git (master) completed!
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [18/40] Analyzing https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T10-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:35 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-3/tp.git (master)...
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-3/tp.git (master) completed!
+Apr 07, 2026 5:48:35 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [19/40] Analyzing https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W10-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-2/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-2/tp.git (master) completed!
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [20/40] Analyzing https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T10-1/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W09-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T10-1/tp.git (master) completed!
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [21/40] Analyzing https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
+Apr 07, 2026 5:48:36 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F14-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:36 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W10-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W10-4/tp.git (master) completed!
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [22/40] Analyzing https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F14-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T11-1/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T11-1/tp.git (master) completed!
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [23/40] Analyzing https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F14-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-4/tp.git (master) completed!
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [24/40] Analyzing https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W09-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-4/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-4/tp.git (master) completed!
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [25/40] Analyzing https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
+Apr 07, 2026 5:48:37 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F09-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:37 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-1/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-1/tp.git (master) completed!
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [26/40] Analyzing https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F09-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F14-3/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F14-3/tp.git (master) completed!
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [27/40] Analyzing https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W09-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-3/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-3/tp.git (master) completed!
+Apr 07, 2026 5:48:38 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-2/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [28/40] Analyzing https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-F09-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-2/tp.git (master) completed!
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [29/40] Analyzing https://github.com/AY2526S2-CS2113-F09-4/tp.git (master)...
+Apr 07, 2026 5:48:38 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-F09-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:47 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:38 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-F09-4/tp.git (master)...
-Apr 07, 2026 2:52:47 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
-Apr 07, 2026 2:52:47 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-3/tp.git (master) completed!
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [31/40] Analyzing https://github.com/AY2526S2-CS2113-T09-3/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T09-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T09-3/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
+Apr 07, 2026 5:48:39 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-1/tp.git (master)...
+Apr 07, 2026 5:48:39 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-1/tp.git (master) completed!
+Apr 07, 2026 5:48:39 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [30/40] Analyzing https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
+Apr 07, 2026 5:48:39 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W09-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
+Apr 07, 2026 5:48:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-4/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:39 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-4/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:39 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-4/tp.git (master) completed!
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 5:48:39 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [31/40] Analyzing https://github.com/AY2526S2-CS2113-T09-3/tp.git (master)...
+Apr 07, 2026 5:48:39 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T09-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:39 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T09-3/tp.git (master)...
+Apr 07, 2026 5:48:39 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
+Apr 07, 2026 5:48:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-F09-3/tp.git (master)...
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-F09-3/tp.git (master) completed!
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [32/40] Analyzing https://github.com/AY2526S2-CS2113-T09-1/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-T09-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T09-1/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T09-3/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T09-3/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-T09-3/tp.git (master) completed!
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [33/40] Analyzing https://github.com/AY2526S2-CS2113-T09-2/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T09-1/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-T09-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T09-2/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:40 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T09-1/tp.git (master)...
+Apr 07, 2026 5:48:40 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T09-1/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-T09-1/tp.git (master) completed!
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-1/tp.git (master) completed!
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepos
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [34/40] Analyzing https://github.com/AY2526S2-CS2113-T09-4/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [35/40] Analyzing https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:40 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-T09-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:40 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T09-4/tp.git (master)...
-Apr 07, 2026 2:52:48 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W11-3/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-3/tp.git (master) completed!
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-2/tp.git (master) completed!
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [36/40] Analyzing https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [37/40] Analyzing https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W11-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:49 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W11-4/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:49 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T09-4/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T09-4/tp.git (master)...
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-T09-4/tp.git (master) completed!
-Apr 07, 2026 2:52:49 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [38/40] Analyzing https://github.com/AY2526S2-CS2113-T14-1/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-T14-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:50 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-1/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T09-2/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T09-4/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-T09-4/tp.git (master) completed!
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [35/40] Analyzing https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W11-3/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T09-2/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-T09-2/tp.git (master) completed!
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [39/40] Analyzing https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2526S2-CS2113-W11-1/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:50 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-2/tp.git (master) completed!
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [40/40] Analyzing https://github.com/AY2526S2-CS2113-T14-2/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [36/40] Analyzing https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W11-2/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-2/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W09-1/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-2/tp.git (master) completed!
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [37/40] Analyzing https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W09-1/tp.git (master) completed!
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W11-4/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [38/40] Analyzing https://github.com/AY2526S2-CS2113-T14-1/tp.git (master)...
+Apr 07, 2026 5:48:41 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-T14-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-1/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-3/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-3/tp.git (master) completed!
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [39/40] Analyzing https://github.com/AY2526S2-CS2113-T14-2/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2526S2-CS2113-T14-2/tp.git (master) does not contain a standalone config file.
-Apr 07, 2026 2:52:50 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 07, 2026 5:48:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-T14-2/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-2/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-2/tp.git (master) completed!
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [40/40] Analyzing https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2526S2-CS2113-W11-1/tp.git (master) does not contain a standalone config file.
+Apr 07, 2026 5:48:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-4/tp.git (master)...
-Apr 07, 2026 2:52:50 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:42 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-4/tp.git (master) completed!
-Apr 07, 2026 2:52:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T14-1/tp.git (master)...
-Apr 07, 2026 2:52:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
-Apr 07, 2026 2:52:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T14-1/tp.git (master)...
-Apr 07, 2026 2:52:51 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-T14-1/tp.git (master) completed!
-Apr 07, 2026 2:52:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
-Apr 07, 2026 2:52:51 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-1/tp.git (master) completed!
-Apr 07, 2026 2:52:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 07, 2026 5:48:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-T14-2/tp.git (master)...
-Apr 07, 2026 2:52:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 07, 2026 5:48:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
+Apr 07, 2026 5:48:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-W11-1/tp.git (master)...
+Apr 07, 2026 5:48:43 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2526S2-CS2113-W11-1/tp.git (master) completed!
+Apr 07, 2026 5:48:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2526S2-CS2113-T14-2/tp.git (master)...
-Apr 07, 2026 2:52:51 PM reposense.report.ReportGenerator analyzeRepo
+Apr 07, 2026 5:48:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2526S2-CS2113-T14-2/tp.git (master) completed!
-Apr 07, 2026 2:52:51 PM reposense.report.ReportGenerator generateReposReport
+Apr 07, 2026 5:48:43 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/tp-dashboard/tp-dashboard/reposense-report
-Apr 07, 2026 2:52:52 PM reposense.RepoSense main
-INFO: Elapsed processing time: 19.38 second(s)
+Apr 07, 2026 5:48:43 PM reposense.RepoSense main
+INFO: Elapsed processing time: 17.30 second(s)
